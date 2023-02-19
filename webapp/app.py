@@ -164,7 +164,7 @@ st.markdown(
 # Show a sidebar with input fields
 with st.sidebar:
     st.write("## Input")
-    inp_rest_id = st.number_input("Enter the restaurant ID", min_value=1, value=1)
+    inp_rest_id = st.number_input("Enter the restaurant ID: [1,8923]", min_value=1, value=1)
     num_of_recommendation = st.number_input("Enter number of clusters you want for the restaurants", min_value=1, max_value=7, value=5)
     online_available = st.selectbox("Should the restaurant have Online order facility", ["Yes", "No"])
     budget = st.selectbox("Filter according to budget?", ["Yes", "No"])
