@@ -34,9 +34,13 @@ Duplicate columns were also removed.
 ### EXPLORATORY DATA ANALYSIS
 
 A histogram is for the dataset. To simplify the plots based on Area we split the columns into three columns: Area 0, Area1 and Area2 on the comma. Since Area1 and Area2 mostly contain Bangalore, we do not consider Area. Only those restaurants were picked which had more than 50 orders. We plotted a bar plot between location and number of restaurants and found that most restaurants are in Electronic City.
+
 We plotted a matplotlib plot between number of online /offline orders vs number of orders. This insight showed that mostly all restaurants offer home delivery service.
+
 A box plot is plotted to identify relationship between average cost of restaurants and online vs offline orders. Another box plot is  plotted between average cost vs dinner ratings.
+
 A bar plot is plotted between location and number of offline vs online orders. It is noticed that there are very few restaurants that do not offer home delivery.
+
 A seaborn bar plot is plotted between number of reviews vs cuisines to find the most popular cuisines. We found that Continental, Asian, Pizza, Burger and Biryani is the most popular cusine having approximately 40,000 reviews.
 
 
@@ -48,4 +52,4 @@ There are four ways in which we recommend restaurants:
 3)	Based on budget provided by user  
 4)	Home Delivery service plus on the basis of budget provided by user.
 
-Finally we created a function to take input from user on the above parameters and recommend restaurants to the user.	This application is deployed on Streamlit
+Finally we created a function to take input from user on the above parameters and recommend restaurants to the user.	This application is deployed on Streamlit.
